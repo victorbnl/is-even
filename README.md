@@ -8,6 +8,10 @@
 
 Install with [pip](https://pypi.org/project/pip/)
 
+```
+pip install is-even
+```
+
 ## Usage
 
 ```python
