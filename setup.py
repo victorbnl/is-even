@@ -3,10 +3,15 @@
 
 from distutils.core import setup
 
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
+
 setup(
     name='is-even',
-    version='0.0.0',
+    version='1.0.0',
     description='Return true if the given number is even.',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Victor B",
     author_email="victor.bonnelle@protonmail.com",
     maintainer="Victor B",
