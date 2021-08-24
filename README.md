@@ -18,11 +18,11 @@ pip install is-even
 from is_even import isEven
 
 isEven(0)
-# => True
+# => False
 isEven('1')
-# => False
-isEven(2)
 # => True
-isEven('3')
+isEven(2)
 # => False
+isEven('3')
+# => True
 ```
