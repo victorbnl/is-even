@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
         self.assertFalse(isEven(0))
         self.assertTrue(isEven(1))
         self.assertFalse(isEven(2))
-        self.assertTrue(isEven(3))
+        self.assertTrue(isEven(4))
 
 if __name__ == "__main__":
     unittest.main()
