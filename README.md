@@ -1,6 +1,6 @@
 # is-even
 
-![PyPI](https://img.shields.io/pypi/v/is-even) ![PyPI - Downloads](https://img.shields.io/pypi/dm/is-even) ![GitHub branch checks state](https://img.shields.io/github/checks-status/victorbnl/is-even/main)
+![PyPI](https://img.shields.io/pypi/v/is-even) ![PyPI - Downloads](https://img.shields.io/pypi/dm/is-even) [![Test](https://github.com/victorbnl/is-even/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/victorbnl/is-even/actions/workflows/test.yml)
 
 > Return true if the given number is even
 
