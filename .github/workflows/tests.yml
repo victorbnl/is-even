@@ -1,0 +1,37 @@
+name: tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  unit_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.x
+      - name: Install the module
+        run: pip install .
+      - name: Run tests
+        run: python3 test.py
+      
+  pip_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.x
+      - name: Install twine
+        run: python3 -m pip install twine
+      - name: Build pip module
+        run: python3 setup.py sdist
+      - name: Twine check
+        run: python3 -m twine check dist/*
