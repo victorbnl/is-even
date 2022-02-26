@@ -1,7 +1,7 @@
 is-even
 =======
 
-|Test| |PyPI| |PyPI - Downloads|
+|Tests| |PyPI| |PyPI - Downloads|
 
    Return true if the given number is even
 
@@ -30,8 +30,8 @@ Usage
    isEven('3')
    # => True
 
-.. |Test| image:: https://github.com/victorbnl/is-even/actions/workflows/test.yml/badge.svg?branch=main
-   :target: https://github.com/victorbnl/is-even/actions/workflows/test.yml
+.. |Tests| image:: https://github.com/victorbnl/is-even/actions/workflows/tests.yml/badge.svg?branch=main
+   :target: https://github.com/victorbnl/is-even/actions/workflows/tests.yml
 .. |PyPI| image:: https://img.shields.io/pypi/v/is-even
    :target: https://pypi.org/project/is-even/
 .. |PyPI - Downloads| image:: https://img.shields.io/pypi/dm/is-even
