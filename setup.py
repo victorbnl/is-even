@@ -8,7 +8,7 @@ with open("README.rst", "r", encoding="utf-8") as f:
 
 setup(
     name='is-even',
-    version='1.0.3',
+    version='1.0.4',
     description='Return true if the given number is even.',
     long_description=long_description,
     long_description_content_type="text/x-rst",
