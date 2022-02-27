@@ -1,4 +1,9 @@
 __version__ = "1.0.2"
 
 def isEven(n):
-    return int(n) % 2 != 0
+    res = [True, False]
+    while True:
+        try:
+            return res[n]
+        except IndexError:
+            res += res
