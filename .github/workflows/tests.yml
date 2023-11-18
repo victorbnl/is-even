@@ -19,7 +19,7 @@ jobs:
           python-version: 3.x
 
       - name: Install the module
-        run: pip install .
+        run: python3 -m pip install .
 
       - name: Run tests
         run: python3 test.py
@@ -39,7 +39,7 @@ jobs:
         run: python3 -m pip install twine
 
       - name: Build pip module
-        run: python3 setup.py sdist
+        run: python3 -m pip install .
 
       - name: Twine check
         run: python3 -m twine check dist/*
