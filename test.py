@@ -6,10 +6,10 @@ from is_even import isEven
 
 class Test(unittest.TestCase):
     def test(self):
-        self.assertFalse(isEven(0))
-        self.assertTrue(isEven(1))
-        self.assertFalse(isEven(2))
-        self.assertTrue(isEven(3))
+        self.assertTrue(isEven(0))
+        self.assertFalse(isEven(1))
+        self.assertTrue(isEven(2))
+        self.assertFalse(isEven(3))
 
 if __name__ == "__main__":
     unittest.main()
