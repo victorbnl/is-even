@@ -35,8 +35,8 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install twine
-        run: python3 -m pip install twine
+      - name: Install build dependencies
+        run: python3 -m pip install build twie
 
       - name: Build pip module
         run: python3 -m build
