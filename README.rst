@@ -23,11 +23,11 @@ Usage
 
    is_even(0)
    # => False
-   is_even('1')
+   is_even(1)
    # => True
    is_even(2)
    # => False
-   is_even('3')
+   is_even(3)
    # => True
 
 .. |Tests| image:: https://github.com/victorbnl/is-even/actions/workflows/tests.yml/badge.svg?branch=main
