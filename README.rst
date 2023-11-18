@@ -21,13 +21,13 @@ Usage
 
    from is_even import is_even
 
-   isEven(0)
+   is_even(0)
    # => False
-   isEven('1')
+   is_even('1')
    # => True
-   isEven(2)
+   is_even(2)
    # => False
-   isEven('3')
+   is_even('3')
    # => True
 
 .. |Tests| image:: https://github.com/victorbnl/is-even/actions/workflows/tests.yml/badge.svg?branch=main
