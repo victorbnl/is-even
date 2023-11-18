@@ -19,7 +19,7 @@ Usage
 
 .. code:: python
 
-   from is_even import isEven
+   from is_even import is_even
 
    isEven(0)
    # => False
