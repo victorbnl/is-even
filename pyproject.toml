@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "is-even"
+version = "1.0.4"
+description = "Return true if the given number is even."
+readme = "README.rst"
+license = "MIT"
+authors = [
+    { name = "Victor Bonnelle", email = "victor.bonnelle@proton.me" },
+]
+
+[project.urls]
+Homepage = "https://github.com/victorbnl/is-even"
+Tracker = "https://github.com/victorbnl/is-even/issues"
+Source = "https://github.com/victorbnl/is-even"
